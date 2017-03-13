@@ -1,1 +1,4 @@
 script web service pada sisi Provider dengan format data XML
+
+wsp_obat.php  ---> provide xml data obat (tanpa query)
+wsp_obat2.php ---> provide xml data obat (dengan query)
