@@ -1,4 +1,5 @@
 <?php
+	error_reporting(0);
 	header("Content-type: text/xml");
 	require_once("connection.php");
 	$sql = "select * from obat";
