@@ -3,6 +3,7 @@ Cari Obat : <input name='merk' type='text'><input type="submit" name="submit" va
 </form>
 
 <?php
+error_reporting(0);
 if(($_REQUEST[merk]) and ($_REQUEST[submit])){ 
 	
 	$merk=$_REQUEST[merk];

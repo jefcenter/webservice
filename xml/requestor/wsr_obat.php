@@ -1,6 +1,6 @@
 <?php
+error_reporting(0);
 
-$merk=$_REQUEST[merk];
 
 $doc = new DOMDocument();
 $doc->load('http://localhost/apotek/wsp_obat.php');
